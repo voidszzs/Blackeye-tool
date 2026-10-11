@@ -1,0 +1,51 @@
+{
+  "order": [
+    "OSINT",
+    "Network",
+    "IpTools",
+    "Discord",
+    "Phishing",
+    "Web",
+    "Utilities",
+    "Roblox",
+    "VirusBuilder"
+  ],
+  "meta": {
+    "Osint": [
+      "oSINT",
+      "people / email / social lookups"
+    ],
+    "Network": [
+      "NETWORK",
+      "web recon / scanning / crawlers"
+    ],
+    "IpTools": [
+      "IP TOOLS",
+      "ip geo / port / range utilities"
+    ],
+    "Discord": [
+      "DISCORD",
+      "token / webhook / bot tooling"
+    ],
+    "Phishing": [
+      "PHISHING",
+      "page gen / server / harvester"
+    ],
+    "Web": [
+      "WEB",
+      "sqli / xss / lfi / fuzz"
+    ],
+    "Utilities": [
+      "UTILITIES",
+      "hash / encode / files"
+    ],
+    "Roblox": [
+      "ROBLOX",
+      "cookie / user / group / game"
+    ],
+    "VirusBuilder": [
+      "VIRUS BUILDER",
+      "payload + persistence generators"
+    ]
+  }
+}

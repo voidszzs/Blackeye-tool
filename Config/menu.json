@@ -1,0 +1,1385 @@
+{
+  "Osint": [
+    {
+      "name": "Username-Tracker",
+      "file": "Program/Osint/username_tracker.py",
+      "desc": "check username across 400+ sites"
+    },
+    {
+      "name": "Email Tracker",
+      "file": "Program/Osint/email_tracker.py",
+      "desc": "holehe-style registration check"
+    },
+    {
+      "name": "Email Lookup",
+      "file": "Program/Osint/email_lookup.py",
+      "desc": "mx, gravatar, github, breach"
+    },
+    {
+      "name": "Phone Number Lookup",
+      "file": "Program/Osint/phone_lookup.py",
+      "desc": "country + carrier prefix"
+    },
+    {
+      "name": "Instagram Lookup",
+      "file": "Program/Osint/instagram_lookup.py",
+      "desc": "public profile info"
+    },
+    {
+      "name": "Twitter / X Lookup",
+      "file": "Program/Osint/twitter_lookup.py",
+      "desc": "public profile via syndication"
+    },
+    {
+      "name": "TikTok Lookup",
+      "file": "Program/Osint/tiktok_lookup.py",
+      "desc": "public profile"
+    },
+    {
+      "name": "Telegram Lookup",
+      "file": "Program/Osint/telegram_lookup.py",
+      "desc": "profile existence + t.me info"
+    },
+    {
+      "name": "Discord ID Lookup",
+      "file": "Program/Osint/discord_id_lookup.py",
+      "desc": "cordcat / oathnet / discord.id"
+    },
+    {
+      "name": "Discord User Lookup",
+      "file": "Program/Osint/discord_user_lookup.py",
+      "desc": "user by username via public api"
+    },
+    {
+      "name": "Stealer Log Search",
+      "file": "Program/Osint/stealer_log_search.py",
+      "desc": "search breach/paste dumps"
+    },
+    {
+      "name": "GitHub User Info",
+      "file": "Program/Osint/github_user.py",
+      "desc": "public api profile"
+    },
+    {
+      "name": "GitLab User Info",
+      "file": "Program/Osint/gitlab_user.py",
+      "desc": "public api profile"
+    },
+    {
+      "name": "Reddit User Info",
+      "file": "Program/Osint/reddit_user.py",
+      "desc": "public json profile"
+    },
+    {
+      "name": "Steam User Info",
+      "file": "Program/Osint/steam_user.py",
+      "desc": "steam community lookup"
+    },
+    {
+      "name": "Roblox User Lookup",
+      "file": "Program/Osint/roblox_user_lookup.py",
+      "desc": "user info"
+    },
+    {
+      "name": "Google Dorking",
+      "file": "Program/Osint/google_dorking.py",
+      "desc": "20 common dorks"
+    },
+    {
+      "name": "Image EXIF Extractor",
+      "file": "Program/Osint/exif_extractor.py",
+      "desc": "read exif + gps"
+    },
+    {
+      "name": "Reverse Image Search",
+      "file": "Program/Osint/reverse_image.py",
+      "desc": "google/yandex/tineye/sauce"
+    },
+    {
+      "name": "Metadata Cleaner",
+      "file": "Program/Osint/metadata_cleaner.py",
+      "desc": "strip exif from files"
+    },
+    {
+      "name": "Breach Check",
+      "file": "Program/Osint/breach_check.py",
+      "desc": "hibp-style breach check"
+    },
+    {
+      "name": "Domain History",
+      "file": "Program/Osint/domain_history.py",
+      "desc": "crt.sh certificate transparency"
+    },
+    {
+      "name": "Pastebin Search",
+      "file": "Program/Osint/pastebin_search.py",
+      "desc": "search pastes"
+    },
+    {
+      "name": "D0x Create",
+      "file": "Program/Osint/dox_create.py",
+      "desc": "build structured profile from input"
+    },
+    {
+      "name": "D0x Tracker",
+      "file": "Program/Osint/dox_tracker.py",
+      "desc": "chain lookups into a profile"
+    },
+    {
+      "name": "Social Media Finder",
+      "file": "Program/Osint/social_finder.py",
+      "desc": "broad social search"
+    },
+    {
+      "name": "LinkedIn Lookup",
+      "file": "Program/Osint/linkedin_lookup.py",
+      "desc": "public profile search via google"
+    },
+    {
+      "name": "Snapchat Lookup",
+      "file": "Program/Osint/snapchat_lookup.py",
+      "desc": "public profile"
+    },
+    {
+      "name": "Pinterest Lookup",
+      "file": "Program/Osint/pinterest_lookup.py",
+      "desc": "public pins + profile"
+    },
+    {
+      "name": "Twitch Lookup",
+      "file": "Program/Osint/twitch_lookup.py",
+      "desc": "public channel info"
+    },
+    {
+      "name": "Spotify Lookup",
+      "file": "Program/Osint/spotify_lookup.py",
+      "desc": "public profile"
+    },
+    {
+      "name": "Gravatar Lookup",
+      "file": "Program/Osint/gravatar_lookup.py",
+      "desc": "email -> gravatar profile"
+    },
+    {
+      "name": "Keybase Lookup",
+      "file": "Program/Osint/keybase_lookup.py",
+      "desc": "public keybase profile"
+    },
+    {
+      "name": "Patreon Lookup",
+      "file": "Program/Osint/patreon_lookup.py",
+      "desc": "public creator page"
+    },
+    {
+      "name": "SoundCloud Lookup",
+      "file": "Program/Osint/soundcloud_lookup.py",
+      "desc": "public user info"
+    }
+  ],
+  "Network": [
+    {
+      "name": "Website Vulnerability Scanner",
+      "file": "Program/Network/web_vuln_scanner.py",
+      "desc": "headers, exposed files, cookie flags"
+    },
+    {
+      "name": "Website Info Scanner",
+      "file": "Program/Network/web_info_scanner.py",
+      "desc": "server, tech stack, favicon, emails"
+    },
+    {
+      "name": "Website URL Crawler",
+      "file": "Program/Network/url_scanner.py",
+      "desc": "crawl and collect all urls"
+    },
+    {
+      "name": "Subdomain Enumerator",
+      "file": "Program/Network/subdomain_enum.py",
+      "desc": "dns wordlist enum"
+    },
+    {
+      "name": "SSL Certificate Checker",
+      "file": "Program/Network/ssl_checker.py",
+      "desc": "tls cert info + expiry"
+    },
+    {
+      "name": "DNS Lookup",
+      "file": "Program/Network/dns_lookup.py",
+      "desc": "a, aaaa, mx, ns, txt, cname"
+    },
+    {
+      "name": "WHOIS Lookup",
+      "file": "Program/Network/whois_lookup.py",
+      "desc": "domain registration"
+    },
+    {
+      "name": "Traceroute",
+      "file": "Program/Network/traceroute.py",
+      "desc": "route discovery"
+    },
+    {
+      "name": "Network Mapper",
+      "file": "Program/Network/network_mapper.py",
+      "desc": "lan host discovery"
+    },
+    {
+      "name": "HTTP Methods Tester",
+      "file": "Program/Network/http_methods.py",
+      "desc": "check allowed verbs"
+    },
+    {
+      "name": "Reverse DNS",
+      "file": "Program/Network/reverse_dns.py",
+      "desc": "ptr lookup"
+    },
+    {
+      "name": "Banner Grabber",
+      "file": "Program/Network/banner_grab.py",
+      "desc": "service banner"
+    },
+    {
+      "name": "Header Checker",
+      "file": "Program/Network/header_checker.py",
+      "desc": "security headers audit"
+    },
+    {
+      "name": "WAF Detector",
+      "file": "Program/Network/waf_detector.py",
+      "desc": "detect common waf"
+    },
+    {
+      "name": "Admin Panel Finder",
+      "file": "Program/Network/admin_finder.py",
+      "desc": "find admin paths"
+    }
+  ],
+  "IpTools": [
+    {
+      "name": "IP Lookup / Geolocation",
+      "file": "Program/IpTools/ip_lookup.py",
+      "desc": "geolocation + asn"
+    },
+    {
+      "name": "IP Port Scanner",
+      "file": "Program/IpTools/port_scanner.py",
+      "desc": "common / full / range port scan"
+    },
+    {
+      "name": "IP Range Scanner",
+      "file": "Program/IpTools/ip_scanner.py",
+      "desc": "cidr / range tcp probe"
+    },
+    {
+      "name": "IP Pinger",
+      "file": "Program/IpTools/ip_pinger.py",
+      "desc": "cross-platform ping"
+    },
+    {
+      "name": "Reverse IP Lookup",
+      "file": "Program/IpTools/reverse_ip.py",
+      "desc": "domains on same ip"
+    },
+    {
+      "name": "IP Generator",
+      "file": "Program/IpTools/ip_generator.py",
+      "desc": "random v4 / v6"
+    },
+    {
+      "name": "Public IP Fetcher",
+      "file": "Program/IpTools/public_ip.py",
+      "desc": "show your external ip"
+    },
+    {
+      "name": "IP Blacklist Check",
+      "file": "Program/IpTools/ip_blacklist.py",
+      "desc": "check on common blacklists"
+    },
+    {
+      "name": "ASN Lookup",
+      "file": "Program/IpTools/asn_lookup.py",
+      "desc": "asn / netblock info"
+    },
+    {
+      "name": "GeoIP Batch",
+      "file": "Program/IpTools/geoip_batch.py",
+      "desc": "batch geolocate a file of ips"
+    }
+  ],
+  "Discord": [
+    {
+      "name": "Token Info",
+      "file": "Program/Discord/token_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Login",
+      "file": "Program/Discord/token_login.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Joiner",
+      "file": "Program/Discord/token_joiner.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Leaver",
+      "file": "Program/Discord/token_leaver.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Spammer",
+      "file": "Program/Discord/token_spammer.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Mass DM",
+      "file": "Program/Discord/token_massdm.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Delete Friends",
+      "file": "Program/Discord/token_delete_friends.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Block Friends",
+      "file": "Program/Discord/token_block_friends.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Status Changer",
+      "file": "Program/Discord/token_status.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Generator",
+      "file": "Program/Discord/token_gen.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Validator",
+      "file": "Program/Discord/token_validator.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Nuker",
+      "file": "Program/Discord/token_nuker.py",
+      "desc": ""
+    },
+    {
+      "name": "Token DM All Friends",
+      "file": "Program/Discord/token_dm_friends.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Leave All Servers",
+      "file": "Program/Discord/token_leave_all.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Nitro Check",
+      "file": "Program/Discord/token_nitro_check.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Change Avatar",
+      "file": "Program/Discord/token_avatar.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Change Username",
+      "file": "Program/Discord/token_username.py",
+      "desc": ""
+    },
+    {
+      "name": "Token 2FA Disabler",
+      "file": "Program/Discord/token_2fa.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Connection Viewer",
+      "file": "Program/Discord/token_connections.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Guild Lister",
+      "file": "Program/Discord/token_guilds.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Backup Codes",
+      "file": "Program/Discord/token_backup_codes.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Bio Editor",
+      "file": "Program/Discord/token_bio.py",
+      "desc": ""
+    },
+    {
+      "name": "Token HypeSquad Join",
+      "file": "Program/Discord/token_hypesquad.py",
+      "desc": ""
+    },
+    {
+      "name": "Token HypeSquad Leave",
+      "file": "Program/Discord/token_leave_hypesquad.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Notes Get",
+      "file": "Program/Discord/token_get_notes.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Notes Set",
+      "file": "Program/Discord/token_set_note.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Note All Friends",
+      "file": "Program/Discord/token_note_all.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Add Friend",
+      "file": "Program/Discord/token_add_friend.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Remove Friend",
+      "file": "Program/Discord/token_remove_friend.py",
+      "desc": ""
+    },
+    {
+      "name": "Token List Relationships",
+      "file": "Program/Discord/token_relationships.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Accept Friends",
+      "file": "Program/Discord/token_accept_friends.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Cancel Friends",
+      "file": "Program/Discord/token_cancel_friends.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Regenerate 2FA",
+      "file": "Program/Discord/token_mfa_codes.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Legacy Discrim",
+      "file": "Program/Discord/token_discriminator.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Delete Message",
+      "file": "Program/Discord/token_delete_message.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Edit Message",
+      "file": "Program/Discord/token_edit_message.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Fetch Message",
+      "file": "Program/Discord/token_fetch_message.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Pin Message",
+      "file": "Program/Discord/token_pin_message.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Pins List",
+      "file": "Program/Discord/token_pins_list.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Create Guild",
+      "file": "Program/Discord/token_create_guild.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Edit Guild",
+      "file": "Program/Discord/token_edit_guild.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Delete Guild",
+      "file": "Program/Discord/token_delete_guild.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Create Channel",
+      "file": "Program/Discord/token_create_channel.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Delete Channel",
+      "file": "Program/Discord/token_delete_channel.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Clone Channel",
+      "file": "Program/Discord/token_clone_channel.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Edit Channel",
+      "file": "Program/Discord/token_edit_channel.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Channel Slowmode",
+      "file": "Program/Discord/token_slowmode.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Typing Indicator",
+      "file": "Program/Discord/token_typing_indicator.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Emoji Add",
+      "file": "Program/Discord/token_emoji_add.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Emoji Delete",
+      "file": "Program/Discord/token_emoji_delete.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Sticker List",
+      "file": "Program/Discord/token_sticker_list.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Vanity URL",
+      "file": "Program/Discord/token_vanity_url.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Widget Settings",
+      "file": "Program/Discord/token_widget.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Audit Log",
+      "file": "Program/Discord/token_audit_log.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Ban List",
+      "file": "Program/Discord/token_ban_list.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Ban User",
+      "file": "Program/Discord/token_ban_user.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Unban User",
+      "file": "Program/Discord/token_unban_user.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Kick User",
+      "file": "Program/Discord/token_kick_user.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Member Fetch",
+      "file": "Program/Discord/token_member_fetch.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Role Add",
+      "file": "Program/Discord/token_role_add.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Role Remove",
+      "file": "Program/Discord/token_role_remove.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Role Edit",
+      "file": "Program/Discord/token_role_edit.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Role Delete",
+      "file": "Program/Discord/token_role_delete.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Edit Nick",
+      "file": "Program/Discord/token_nick.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Forum Post",
+      "file": "Program/Discord/token_forum_post.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Thread Create",
+      "file": "Program/Discord/token_thread_create.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Thread Join",
+      "file": "Program/Discord/token_join_thread.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Thread Leave",
+      "file": "Program/Discord/token_leave_thread.py",
+      "desc": ""
+    },
+    {
+      "name": "Token Guild Prune",
+      "file": "Program/Discord/token_guild_prune.py",
+      "desc": ""
+    },
+    {
+      "name": "Webhook Info",
+      "file": "Program/Discord/webhook_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Webhook Spammer",
+      "file": "Program/Discord/webhook_spammer.py",
+      "desc": ""
+    },
+    {
+      "name": "Webhook Delete",
+      "file": "Program/Discord/webhook_delete.py",
+      "desc": ""
+    },
+    {
+      "name": "Webhook Generator",
+      "file": "Program/Discord/webhook_gen.py",
+      "desc": ""
+    },
+    {
+      "name": "Webhook Editor",
+      "file": "Program/Discord/webhook_edit.py",
+      "desc": ""
+    },
+    {
+      "name": "Bot Nuker",
+      "file": "Program/Discord/bot_nuker.py",
+      "desc": ""
+    },
+    {
+      "name": "Bot Invite To ID",
+      "file": "Program/Discord/bot_invite_id.py",
+      "desc": ""
+    },
+    {
+      "name": "Bot Server Lister",
+      "file": "Program/Discord/bot_servers.py",
+      "desc": ""
+    },
+    {
+      "name": "Bot Mass Ban",
+      "file": "Program/Discord/bot_massban.py",
+      "desc": ""
+    },
+    {
+      "name": "Bot Mass Kick",
+      "file": "Program/Discord/bot_masskick.py",
+      "desc": ""
+    },
+    {
+      "name": "Bot Role Creator",
+      "file": "Program/Discord/bot_role_creator.py",
+      "desc": ""
+    },
+    {
+      "name": "Server Info",
+      "file": "Program/Discord/server_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Server Backup",
+      "file": "Program/Discord/server_backup.py",
+      "desc": ""
+    },
+    {
+      "name": "Server Emoji Stealer",
+      "file": "Program/Discord/emoji_stealer.py",
+      "desc": ""
+    },
+    {
+      "name": "Server Member Scraper",
+      "file": "Program/Discord/member_scraper.py",
+      "desc": ""
+    },
+    {
+      "name": "Channel Cloner",
+      "file": "Program/Discord/channel_cloner.py",
+      "desc": ""
+    },
+    {
+      "name": "Role Cloner",
+      "file": "Program/Discord/role_cloner.py",
+      "desc": ""
+    },
+    {
+      "name": "Message Exporter",
+      "file": "Program/Discord/message_exporter.py",
+      "desc": ""
+    },
+    {
+      "name": "Server Raid Tool",
+      "file": "Program/Discord/server_raid.py",
+      "desc": ""
+    },
+    {
+      "name": "Nitro Generator",
+      "file": "Program/Discord/nitro_gen.py",
+      "desc": ""
+    },
+    {
+      "name": "Nitro Checker",
+      "file": "Program/Discord/nitro_checker.py",
+      "desc": ""
+    },
+    {
+      "name": "Gift Code Checker",
+      "file": "Program/Discord/gift_checker.py",
+      "desc": ""
+    },
+    {
+      "name": "Invite Resolver",
+      "file": "Program/Discord/invite_resolver.py",
+      "desc": ""
+    },
+    {
+      "name": "Invite Mass Checker",
+      "file": "Program/Discord/invite_mass_check.py",
+      "desc": ""
+    },
+    {
+      "name": "Group DM Spammer",
+      "file": "Program/Discord/group_dm_spam.py",
+      "desc": ""
+    },
+    {
+      "name": "Reaction Spammer",
+      "file": "Program/Discord/reaction_spam.py",
+      "desc": ""
+    },
+    {
+      "name": "Typing Spammer",
+      "file": "Program/Discord/typing_spam.py",
+      "desc": ""
+    },
+    {
+      "name": "Password Changer",
+      "file": "Program/Discord/token_pass_change.py",
+      "desc": ""
+    },
+    {
+      "name": "Email Changer",
+      "file": "Program/Discord/token_email_change.py",
+      "desc": ""
+    },
+    {
+      "name": "Phone Remover",
+      "file": "Program/Discord/token_phone_remove.py",
+      "desc": ""
+    }
+  ],
+  "Phishing": [
+    {
+      "name": "Page Generator",
+      "file": "Program/Phishing/phish_gen.py",
+      "desc": "clone target page for local use"
+    },
+    {
+      "name": "Phishing Server",
+      "file": "Program/Phishing/phish_server.py",
+      "desc": "serve a phishing page locally"
+    },
+    {
+      "name": "Credential Harvester",
+      "file": "Program/Phishing/cred_harvest.py",
+      "desc": "log submitted forms to file"
+    },
+    {
+      "name": "Email Spoofer",
+      "file": "Program/Phishing/email_spoof.py",
+      "desc": "send spoofed emails"
+    },
+    {
+      "name": "Link Shortener",
+      "file": "Program/Phishing/link_shortener.py",
+      "desc": "shorten urls via public apis"
+    },
+    {
+      "name": "QR Phish",
+      "file": "Program/Phishing/qr_phish.py",
+      "desc": "generate qr code for a url"
+    },
+    {
+      "name": "Redirector",
+      "file": "Program/Phishing/redirector.py",
+      "desc": "open redirect url builder"
+    },
+    {
+      "name": "Cloaker",
+      "file": "Program/Phishing/cloaker.py",
+      "desc": "cloak link by user agent / referrer"
+    },
+    {
+      "name": "Clone Site",
+      "file": "Program/Phishing/clone_site.py",
+      "desc": "download html/css/js of a page"
+    },
+    {
+      "name": "Template Editor",
+      "file": "Program/Phishing/template_edit.py",
+      "desc": "edit html login templates"
+    },
+    {
+      "name": "Campaign Tracker",
+      "file": "Program/Phishing/campaign_tracker.py",
+      "desc": "track clicks and submits"
+    },
+    {
+      "name": "Log Viewer",
+      "file": "Program/Phishing/log_viewer.py",
+      "desc": "view harvested logs"
+    }
+  ],
+  "Web": [
+    {
+      "name": "SQL Injector",
+      "file": "Program/Web/sql_injector.py",
+      "desc": ""
+    },
+    {
+      "name": "XSS Scanner",
+      "file": "Program/Web/xss_scanner.py",
+      "desc": ""
+    },
+    {
+      "name": "LFI Scanner",
+      "file": "Program/Web/lfi_scanner.py",
+      "desc": ""
+    },
+    {
+      "name": "RFI Scanner",
+      "file": "Program/Web/rfi_scanner.py",
+      "desc": ""
+    },
+    {
+      "name": "SSRF Scanner",
+      "file": "Program/Web/ssrf_scanner.py",
+      "desc": ""
+    },
+    {
+      "name": "CSRF Tester",
+      "file": "Program/Web/csrf_tester.py",
+      "desc": ""
+    },
+    {
+      "name": "Open Redirect",
+      "file": "Program/Web/open_redirect.py",
+      "desc": ""
+    },
+    {
+      "name": "Subdomain Takeover",
+      "file": "Program/Web/sub_takeover.py",
+      "desc": ""
+    },
+    {
+      "name": "CORS Checker",
+      "file": "Program/Web/cors_checker.py",
+      "desc": ""
+    },
+    {
+      "name": "JWT Auditor",
+      "file": "Program/Web/jwt_audit.py",
+      "desc": ""
+    },
+    {
+      "name": "GraphQL Introspect",
+      "file": "Program/Web/graphql_intro.py",
+      "desc": ""
+    },
+    {
+      "name": "Header Injector",
+      "file": "Program/Web/header_injector.py",
+      "desc": ""
+    },
+    {
+      "name": "Directory Bruteforcer",
+      "file": "Program/Web/dir_bruteforce.py",
+      "desc": ""
+    },
+    {
+      "name": "Cookie Stealer",
+      "file": "Program/Web/cookie_stealer.py",
+      "desc": ""
+    },
+    {
+      "name": "API Fuzzer",
+      "file": "Program/Web/api_fuzzer.py",
+      "desc": ""
+    }
+  ],
+  "Utilities": [
+    {
+      "name": "Zip Password Cracker",
+      "file": "Program/Utilities/zip_cracker.py",
+      "desc": "dictionary zip attack"
+    },
+    {
+      "name": "Hash Cracker",
+      "file": "Program/Utilities/hash_cracker.py",
+      "desc": "md5/sha wordlist cracker"
+    },
+    {
+      "name": "Hash Encryptor",
+      "file": "Program/Utilities/hash_encryptor.py",
+      "desc": "generate multiple hashes"
+    },
+    {
+      "name": "Database Search",
+      "file": "Program/Utilities/db_search.py",
+      "desc": "sqlite dump search"
+    },
+    {
+      "name": "Base64 Tool",
+      "file": "Program/Utilities/base64_tool.py",
+      "desc": "encode/decode"
+    },
+    {
+      "name": "URL Encoder",
+      "file": "Program/Utilities/url_encoder.py",
+      "desc": "url encode/decode"
+    },
+    {
+      "name": "JWT Decoder",
+      "file": "Program/Utilities/jwt_decoder.py",
+      "desc": "decode header + payload"
+    },
+    {
+      "name": "QR Generator",
+      "file": "Program/Utilities/qr_generator.py",
+      "desc": "create qr codes"
+    },
+    {
+      "name": "QR Reader",
+      "file": "Program/Utilities/qr_reader.py",
+      "desc": "read qr codes"
+    },
+    {
+      "name": "Password Generator",
+      "file": "Program/Utilities/password_gen.py",
+      "desc": "chars + passphrase"
+    },
+    {
+      "name": "Text Encryptor",
+      "file": "Program/Utilities/text_encryptor.py",
+      "desc": "aes-gcm encrypt"
+    },
+    {
+      "name": "File Hasher",
+      "file": "Program/Utilities/file_hasher.py",
+      "desc": "hash any file"
+    },
+    {
+      "name": "String Extractor",
+      "file": "Program/Utilities/string_extractor.py",
+      "desc": "strings from binary"
+    },
+    {
+      "name": "Wordlist Generator",
+      "file": "Program/Utilities/wordlist_gen.py",
+      "desc": "custom wordlists"
+    },
+    {
+      "name": "File Splitter",
+      "file": "Program/Utilities/file_splitter.py",
+      "desc": "chunk a file"
+    },
+    {
+      "name": "File Merger",
+      "file": "Program/Utilities/file_merger.py",
+      "desc": "join chunks back"
+    },
+    {
+      "name": "Hex Dumper",
+      "file": "Program/Utilities/hex_editor.py",
+      "desc": "hex dump"
+    },
+    {
+      "name": "Binary Diff",
+      "file": "Program/Utilities/bin_diff.py",
+      "desc": "byte-level compare"
+    },
+    {
+      "name": "Port Killer",
+      "file": "Program/Utilities/port_killer.py",
+      "desc": "kill process on port"
+    },
+    {
+      "name": "Process Lister",
+      "file": "Program/Utilities/process_lister.py",
+      "desc": "list processes"
+    }
+  ],
+  "Roblox": [
+    {
+      "name": "Cookie Login",
+      "file": "Program/Roblox/cookie_login.py",
+      "desc": ""
+    },
+    {
+      "name": "Cookie Info",
+      "file": "Program/Roblox/cookie_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Cookie Validator",
+      "file": "Program/Roblox/cookie_validator.py",
+      "desc": ""
+    },
+    {
+      "name": "ID Info",
+      "file": "Program/Roblox/id_info.py",
+      "desc": ""
+    },
+    {
+      "name": "User Info",
+      "file": "Program/Roblox/user_info.py",
+      "desc": ""
+    },
+    {
+      "name": "User Search",
+      "file": "Program/Roblox/user_search.py",
+      "desc": ""
+    },
+    {
+      "name": "Username History",
+      "file": "Program/Roblox/username_history.py",
+      "desc": ""
+    },
+    {
+      "name": "Asset Info",
+      "file": "Program/Roblox/asset_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Asset Downloader",
+      "file": "Program/Roblox/asset_dl.py",
+      "desc": ""
+    },
+    {
+      "name": "Group Info",
+      "file": "Program/Roblox/group_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Group Roles",
+      "file": "Program/Roblox/group_roles.py",
+      "desc": ""
+    },
+    {
+      "name": "Group Members",
+      "file": "Program/Roblox/group_members.py",
+      "desc": ""
+    },
+    {
+      "name": "Group Wall",
+      "file": "Program/Roblox/group_wall.py",
+      "desc": ""
+    },
+    {
+      "name": "Game Info",
+      "file": "Program/Roblox/game_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Game Servers",
+      "file": "Program/Roblox/game_servers.py",
+      "desc": ""
+    },
+    {
+      "name": "Friend Tracker",
+      "file": "Program/Roblox/friend_tracker.py",
+      "desc": ""
+    },
+    {
+      "name": "Friend Send",
+      "file": "Program/Roblox/friend_send.py",
+      "desc": ""
+    },
+    {
+      "name": "Friend Accept",
+      "file": "Program/Roblox/friend_accept.py",
+      "desc": ""
+    },
+    {
+      "name": "Follower List",
+      "file": "Program/Roblox/follower_list.py",
+      "desc": ""
+    },
+    {
+      "name": "Avatar Info",
+      "file": "Program/Roblox/avatar_info.py",
+      "desc": ""
+    },
+    {
+      "name": "Avatar 3D",
+      "file": "Program/Roblox/avatar_3d.py",
+      "desc": ""
+    },
+    {
+      "name": "Avatar Downloader",
+      "file": "Program/Roblox/avatar_dl.py",
+      "desc": ""
+    },
+    {
+      "name": "Outfit Downloader",
+      "file": "Program/Roblox/outfit_dl.py",
+      "desc": ""
+    },
+    {
+      "name": "Inventory Dump",
+      "file": "Program/Roblox/inventory_dump.py",
+      "desc": ""
+    },
+    {
+      "name": "Limited Items",
+      "file": "Program/Roblox/limited_items.py",
+      "desc": ""
+    },
+    {
+      "name": "Trade History",
+      "file": "Program/Roblox/trade_history.py",
+      "desc": ""
+    },
+    {
+      "name": "Favorite Games",
+      "file": "Program/Roblox/favorite_games.py",
+      "desc": ""
+    },
+    {
+      "name": "Badges List",
+      "file": "Program/Roblox/badges_list.py",
+      "desc": ""
+    },
+    {
+      "name": "Presence",
+      "file": "Program/Roblox/presence.py",
+      "desc": ""
+    },
+    {
+      "name": "Premium Checker",
+      "file": "Program/Roblox/premium_checker.py",
+      "desc": ""
+    },
+    {
+      "name": "Marketplace Search",
+      "file": "Program/Roblox/marketplace_search.py",
+      "desc": ""
+    },
+    {
+      "name": "Catalog Item",
+      "file": "Program/Roblox/catalog_item.py",
+      "desc": ""
+    }
+  ],
+  "VirusBuilder": [
+    {
+      "name": "Stealer Builder",
+      "file": "Program/VirusBuilder/stealer_builder.py",
+      "desc": ""
+    },
+    {
+      "name": "Grabber Builder",
+      "file": "Program/VirusBuilder/grabber_builder.py",
+      "desc": ""
+    },
+    {
+      "name": "Malware Skeleton",
+      "file": "Program/VirusBuilder/malware_builder.py",
+      "desc": ""
+    },
+    {
+      "name": "Ransomware Skeleton",
+      "file": "Program/VirusBuilder/ransom_builder.py",
+      "desc": ""
+    },
+    {
+      "name": "Python Obfuscator",
+      "file": "Program/VirusBuilder/obfuscator.py",
+      "desc": ""
+    },
+    {
+      "name": "Persistence Registry",
+      "file": "Program/VirusBuilder/persistence.py",
+      "desc": ""
+    },
+    {
+      "name": "Persistence Registry+",
+      "file": "Program/VirusBuilder/persistence_registry.py",
+      "desc": ""
+    },
+    {
+      "name": "Persistence WMI",
+      "file": "Program/VirusBuilder/persistence_wmi.py",
+      "desc": ""
+    },
+    {
+      "name": "Persistence SchTask",
+      "file": "Program/VirusBuilder/persistence_schtask.py",
+      "desc": ""
+    },
+    {
+      "name": "UAC Bypass",
+      "file": "Program/VirusBuilder/uac_bypass.py",
+      "desc": ""
+    },
+    {
+      "name": "UAC Bypass Pro",
+      "file": "Program/VirusBuilder/uac_bypass_pro.py",
+      "desc": ""
+    },
+    {
+      "name": "Anti-VM",
+      "file": "Program/VirusBuilder/anti_vm.py",
+      "desc": ""
+    },
+    {
+      "name": "Anti-Debug",
+      "file": "Program/VirusBuilder/anti_debug.py",
+      "desc": ""
+    },
+    {
+      "name": "Anti-Sandbox",
+      "file": "Program/VirusBuilder/sandbox_evasion.py",
+      "desc": ""
+    },
+    {
+      "name": "AV/EDR Detector",
+      "file": "Program/VirusBuilder/av_detector.py",
+      "desc": ""
+    },
+    {
+      "name": "Keylogger Builder",
+      "file": "Program/VirusBuilder/keylogger_builder.py",
+      "desc": ""
+    },
+    {
+      "name": "RAT Builder",
+      "file": "Program/VirusBuilder/rat_builder.py",
+      "desc": ""
+    },
+    {
+      "name": "Crypter",
+      "file": "Program/VirusBuilder/crypter.py",
+      "desc": ""
+    },
+    {
+      "name": "Binder",
+      "file": "Program/VirusBuilder/binder.py",
+      "desc": ""
+    },
+    {
+      "name": "Icon Changer",
+      "file": "Program/VirusBuilder/icon_changer.py",
+      "desc": ""
+    },
+    {
+      "name": "Downloader Stub",
+      "file": "Program/VirusBuilder/downloader.py",
+      "desc": ""
+    },
+    {
+      "name": "Shellcode Helper",
+      "file": "Program/VirusBuilder/shellcode_gen.py",
+      "desc": ""
+    },
+    {
+      "name": "Shellcode Encoder",
+      "file": "Program/VirusBuilder/encoder.py",
+      "desc": ""
+    },
+    {
+      "name": "DLL Sideload",
+      "file": "Program/VirusBuilder/dll_sideload.py",
+      "desc": ""
+    },
+    {
+      "name": "Registry Backup",
+      "file": "Program/VirusBuilder/registry_backup.py",
+      "desc": ""
+    },
+    {
+      "name": "Port Forwarder",
+      "file": "Program/VirusBuilder/port_forward.py",
+      "desc": ""
+    },
+    {
+      "name": "Reverse Proxy",
+      "file": "Program/VirusBuilder/reverse_proxy.py",
+      "desc": ""
+    },
+    {
+      "name": "DNS Tunnel",
+      "file": "Program/VirusBuilder/dns_tunnel.py",
+      "desc": ""
+    },
+    {
+      "name": "ICMP Tunnel",
+      "file": "Program/VirusBuilder/icmp_tunnel.py",
+      "desc": ""
+    },
+    {
+      "name": "HTTP Beacon",
+      "file": "Program/VirusBuilder/http_beacon.py",
+      "desc": ""
+    },
+    {
+      "name": "Process Injection",
+      "file": "Program/VirusBuilder/process_injection.py",
+      "desc": ""
+    },
+    {
+      "name": "AMSI Bypass",
+      "file": "Program/VirusBuilder/evasion_amsi.py",
+      "desc": ""
+    },
+    {
+      "name": "ETW Patch",
+      "file": "Program/VirusBuilder/evasion_etw.py",
+      "desc": ""
+    },
+    {
+      "name": "NTDLL Unhook",
+      "file": "Program/VirusBuilder/evasion_unhook.py",
+      "desc": ""
+    },
+    {
+      "name": "Sleep Obfuscation",
+      "file": "Program/VirusBuilder/evasion_sleep.py",
+      "desc": ""
+    }
+  ]
+}
